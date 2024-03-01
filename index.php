@@ -4,8 +4,8 @@
 
 	require('vendor/autoload.php');
 
-	define('INCLUDE_PATH_STATIC', 'https://vulpestech.netlify.app/vt/VIEW/PAGES/');
-	define('INCLUDE_PATH', 'https://vulpestech.netlify.app/');
+	define('INCLUDE_PATH_STATIC', 'https://vulpestech.com.br/VT/VIEW/PAGES/');
+	define('INCLUDE_PATH', 'https://vulpestech.com.br/');
 
 	$app = new VT\Application();
 

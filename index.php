@@ -4,8 +4,8 @@
 
 	require('vendor/autoload.php');
 
-	define('INCLUDE_PATH_STATIC', 'http://localhost/VT/VIEW/PAGES/');
-	define('INCLUDE_PATH', 'http://localhost/');
+	define('INCLUDE_PATH_STATIC', 'https://vulpestech.com.br/VT/VIEW/PAGES/');
+	define('INCLUDE_PATH', 'https://vulpestech.com.br/');
 
 	$app = new VT\Application();
 

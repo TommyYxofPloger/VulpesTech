@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-image: url('http://localhost/VT/VIEW/PAGES/IMAGES/LATAN.jpg');
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+}
+
+h2{
+    color: #D7CFFF;
+}

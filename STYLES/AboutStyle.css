@@ -76,6 +76,7 @@ h2{
     align-items: center;
 }
 .texto-D h4{
+    padding-left: 50px;
     flex: 1;
 }
 .quem-somos-container {

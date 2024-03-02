@@ -10,7 +10,7 @@ html, body {
     height: 100%;
     width: 100%;
     scrollbar-width: thin;
-    scrollbar-color: #ff0000 linear-gradient(to bottom right, #ff0000, #0000ff);;
+    scrollbar-color: #ff0000 #888;
 }
 /* Estilizando a barra de rolagem no Chrome e Safari */
 ::-webkit-scrollbar {
@@ -18,7 +18,7 @@ html, body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* cor de fundo da barra de rolagem */
+    background-color: linear-gradient(to bottom right, #ff0000, #0000ff);; /* cor de fundo da barra de rolagem */
 }
 
 ::-webkit-scrollbar-thumb {

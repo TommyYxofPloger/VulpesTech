@@ -72,11 +72,7 @@ h2{
     margin-right: 10px;
 }
 
-.texto-D {
-    display: flex;
-    align-items: center;
-}
-.texto-D h3{
+.historia-container h3{
     color: #333;
     flex: 1;
 }

@@ -72,8 +72,10 @@ h2{
 }
 
 .texto-D {
-    padding-right: 10px;
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.texto-D h4{
     flex: 1;
 }
 .quem-somos-container {

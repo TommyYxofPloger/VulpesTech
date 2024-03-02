@@ -12,18 +12,17 @@ html, body {
     scrollbar-width: thin;
     scrollbar-color: #ff0000 #888;
 }
-/* Estilizando a barra de rolagem no Chrome e Safari */
 ::-webkit-scrollbar {
-    width: 10px; /* largura da barra de rolagem */
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: linear-gradient(to bottom right, #ff0000, #0000ff); /* cor de fundo da barra de rolagem */
+    background-color: linear-gradient(to bottom right, #ff0000, #0000ff);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #888; /* cor da barra de rolagem */
-    border-radius: 5px; /* borda arredondada da barra de rolagem */
+    background-color: #888; 
+    border-radius: 5px; 
 }
 
 
@@ -33,6 +32,8 @@ header {
     padding: 20px;
     text-align: center;
 }
+
+
 .container {
     width: 80%;
     margin: auto;
@@ -45,12 +46,22 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
 }
+h4 {
+    font-weight: normal; 
+    color: #666; 
+}
 h1 {
     margin-top: 0;
 }
 p {
     line-height: 1.6;
 }
+.degrade{
+    background-image: linear-gradient(to right, #ff0000, #0000ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .historia-container {
     display: flex;
     flex-direction: row;
@@ -65,7 +76,7 @@ p {
 .quem-somos-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;    
 }
 
 .quem-somos-imagem {

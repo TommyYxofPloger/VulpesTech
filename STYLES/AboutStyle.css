@@ -18,7 +18,7 @@ html, body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: linear-gradient(to bottom right, #ff0000, #0000ff);; /* cor de fundo da barra de rolagem */
+    background-color: linear-gradient(to bottom right, #ff0000, #0000ff); /* cor de fundo da barra de rolagem */
 }
 
 ::-webkit-scrollbar-thumb {

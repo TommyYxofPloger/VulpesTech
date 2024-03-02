@@ -2,20 +2,16 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+	<link href="https://vulpestech.com.br/STYLES/AboutStyle.css" rel="stylesheet">
     <title>Redirecionando...</title>
 </head>
 <body>
-    <p>Redirecionando para a mesma página...</p>
-    <!-- Outros elementos HTML aqui -->
-
+	<img class="loading-image-fast" src="vulpestech.com.br/IMAGES/spinning-fox.png" alt="raposa helicóptero">
+    <p>Redirecionando...</p>
     <script>
-        // Obter o URL atual da página
         const currentUrl = window.location.href;
 		if(currentUrl == ''){
-			// Redirecionar para o mesmo URL
-			window.location.replace(currentUrl+='about');
-		}else{
-			window.location.replace(currentUrl);
+			window.location.replace("https://vulpestech.com.br/about");
 		}
     </script>
 </body>

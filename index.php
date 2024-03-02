@@ -7,7 +7,7 @@
   define('INCLUDE_PATH_STATIC', 'https://vulpestech.com.br/bkp/VT/VIEW/PAGES/');
   define('INCLUDE_PATH', 'https://vulpestech.com.br/bkp');
 
-  $app = new VT\Application();
+  $app = new bkp\VT\Application();
 
   $app->run();
 ?>

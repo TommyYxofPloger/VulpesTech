@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vulpes Tech</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Página</title>
 </head>
 <body>
+    <script>
+        // Simular o comportamento do código PHP usando JavaScript
+        // Comece a sessão
+        sessionStorage.setItem('loggedIn', true);
 
-	<?php
-	
-	session_start();
+        // Carregue os arquivos necessários
+        var script = document.createElement('script');
+        script.src = 'vendor/autoload.js';
+        document.head.appendChild(script);
 
-	require('vendor/autoload.php');
+        // Defina as constantes
+        var INCLUDE_PATH_STATIC = 'https://vulpestech.com.br/VT/VIEW/PAGES/';
+        var INCLUDE_PATH = 'https://vulpestech.com.br/';
 
-	define('INCLUDE_PATH_STATIC', 'https://vulpestech.com.br/VT/VIEW/PAGES/');
-	define('INCLUDE_PATH', 'https://vulpestech.com.br/');
-
-	$app = new VT\Application();
-
-	$app->run();
-?>
-
+        // Inicialize e execute a aplicação
+        var app = new VT.Application();
+        app.run();
+    </script>
 </body>
 </html>

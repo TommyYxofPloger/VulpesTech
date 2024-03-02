@@ -12,6 +12,21 @@
         sessionStorage.setItem('loggedIn', true);
 
         // Carregue os arquivos necessários
+		const applicationScript = 'caminho/para/application.js';
+		const mainViewScript = 'caminho/para/mainview.js';
+
+		// Agora você pode usar essas variáveis para carregar os scripts conforme necessário
+
+		// Carregar o script de Application
+		const scriptApplication = document.createElement('script');
+		scriptApplication.src = applicationScript;
+		document.head.appendChild(scriptApplication);
+
+		// Carregar o script de MainView
+		const scriptMainView = document.createElement('script');
+		scriptMainView.src = mainViewScript;
+		document.head.appendChild(scriptMainView);
+		
         var script = document.createElement('script');
         script.src = 'vendor/autoload.js';
         document.head.appendChild(script);

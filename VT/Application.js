@@ -1,4 +1,3 @@
-// Defina a classe Application em JavaScript
 class Application {
     constructor() {
         this.Controller = null;
@@ -16,8 +15,7 @@ class Application {
 
         loadName += 'Controller';
 
-        // Simulando a função file_exists em JavaScript
-        // Verifica se a classe Controller existe
+        
         if (typeof window[loadName] === 'function') {
             this.Controller = new window[loadName]();
         } else {

@@ -62,6 +62,7 @@ h2{
 
 .historia-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 

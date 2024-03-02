@@ -39,11 +39,7 @@ header {
     max-width: 80%;
     margin: auto;
     padding: 20px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
-
 .content {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
@@ -76,7 +72,11 @@ h2{
     margin-right: 10px;
 }
 
-.historia-container h3{
+.texto-D {
+    display: flex;
+    align-items: center;
+}
+.texto-D h3{
     color: #333;
     flex: 1;
 }

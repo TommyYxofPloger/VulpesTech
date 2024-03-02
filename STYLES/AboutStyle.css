@@ -5,17 +5,18 @@
 }
 
 html, body {
-    background-color: #D7CFFF;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ff0000, #0000ff);
     height: 100%;
     width: 100%;
+
 }
 
 /*
 body {
-    font-family: Arial, sans-serif;
+    
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #ff0000, #0000ff);
     overflow: hidden;
 }
 */

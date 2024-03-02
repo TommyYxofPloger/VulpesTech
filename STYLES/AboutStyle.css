@@ -42,6 +42,8 @@
 
 		.historia-imagem {
 		    margin-left: 20px;
+            height: 150;
+            width: 80;
 		}
 		.quem-somos-container {
 		    display: flex;
@@ -52,5 +54,5 @@
 		.quem-somos-imagem {
 		    margin-right: 20px;
             height: 300;
-            width: 100;
+            width: 200;
 		}

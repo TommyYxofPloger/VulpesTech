@@ -2,7 +2,7 @@ class Application {
     constructor() {
         this.Controller = null;
     }
-
+    console.log("application");
     setApp() {
         let loadName = 'VT/CONTROLLERS/';
         let url = window.location.pathname.split('/');

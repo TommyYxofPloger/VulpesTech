@@ -1,5 +1,5 @@
-// Defina a classe MainView em JavaScript
 class MainView {
+    console.log("MainView");
     static render(filename) {
         // Simula a inclusão do arquivo PHP em JavaScript
         fetch('PAGES/' + filename + '.php')

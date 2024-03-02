@@ -4,15 +4,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Vulpes Tech</title>
-	<meta http-equiv="refresh" content="0; url=index.php">
 
 </head>
 <body>
 
-	<script>
-	    window.location.href = 'index.php';
-	</script>
+	<?php
+	
+	session_start();
 
+	require('vendor/autoload.php');
+
+	define('INCLUDE_PATH_STATIC', 'https://vulpestech.com.br/VT/VIEW/PAGES/');
+	define('INCLUDE_PATH', 'https://vulpestech.com.br/');
+
+	$app = new VT\Application();
+
+	$app->run();
+?>
 
 </body>
 </html>

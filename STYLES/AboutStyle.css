@@ -39,6 +39,9 @@ header {
     max-width: 80%;
     margin: auto;
     padding: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .content {
     background-color: rgba(255, 255, 255, 0.5);
@@ -64,7 +67,6 @@ h2{
 .historia-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 

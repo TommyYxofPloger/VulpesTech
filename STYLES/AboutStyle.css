@@ -62,18 +62,18 @@ h2{
 
 .historia-container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
+    align-items: center;
 }
 
 
 .historia-imagem {
-    height: 150;
-    width: 80;
+    margin-right: 10px;
 }
+
 .texto-D {
     padding-right: 10px;
     margin-right: 10px;
+    flex: 1;
 }
 .quem-somos-container {
     display: flex;

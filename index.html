@@ -2,43 +2,21 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sua Página</title>
+    <title>Redirecionando...</title>
 </head>
 <body>
-	<h2>index</h2>
+    <p>Redirecionando para a mesma página...</p>
+    <!-- Outros elementos HTML aqui -->
+
     <script>
-        // Simular o comportamento do código PHP usando JavaScript
-        // Comece a sessão
-        sessionStorage.setItem('loggedIn', true);
-
-        // Carregue os arquivos necessários
-		const applicationScript = '\VT\application.js';
-		const mainViewScript = '\VT\VIEW\mainview.js';
-
-		// Agora você pode usar essas variáveis para carregar os scripts conforme necessário
-
-		// Carregar o script de Application
-		const scriptApplication = document.createElement('script');
-		scriptApplication.src = applicationScript;
-		document.head.appendChild(scriptApplication);
-
-		// Carregar o script de MainView
-		const scriptMainView = document.createElement('script');
-		scriptMainView.src = mainViewScript;
-		document.head.appendChild(scriptMainView);
-		
-        var script = document.createElement('script');
-        script.src = 'vendor/autoload.js';
-        document.head.appendChild(script);
-
-        // Defina as constantes
-        var INCLUDE_PATH_STATIC = 'https://vulpestech.com.br/VT/VIEW/PAGES/';
-        var INCLUDE_PATH = 'https://vulpestech.com.br/';
-
-        // Inicialize e execute a aplicação
-        var app = new VT.Application();
-        app.run();
+        // Obter o URL atual da página
+        const currentUrl = window.location.href;
+		if(currentUrl == ''){
+			// Redirecionar para o mesmo URL
+			window.location.replace(currentUrl+='about');
+		}else{
+			window.location.replace(currentUrl);
+		}
     </script>
 </body>
 </html>

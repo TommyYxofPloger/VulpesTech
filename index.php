@@ -1,13 +1,13 @@
 <?php
-  
-  session_start();
+	
+	session_start();
 
-  require('vendor/autoload.php');
+	require('vendor/autoload.php');
 
-  define('INCLUDE_PATH_STATIC', 'https://vulpestech.com.br/bkp/VT/VIEW/PAGES/');
-  define('INCLUDE_PATH', 'https://vulpestech.com.br/bkp');
+	define('INCLUDE_PATH_STATIC', 'https://vulpestech.com.br/VT/VIEW/PAGES/');
+	define('INCLUDE_PATH', 'https://vulpestech.com.br/');
 
-  $app = new bkp\VT\Application();
+	$app = new VT\Application();
 
-  $app->run();
+	$app->run();
 ?>

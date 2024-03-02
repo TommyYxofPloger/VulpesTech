@@ -57,7 +57,7 @@ p {
     line-height: 1.6;
 }
 .degrade{
-    background-image: linear-gradient(to right, #ff0000, #00ff15);
+    background-image: linear-gradient(to right, #ff0000 0%, #ff0000 30%, #00ff00 70%, #00ff00 100%);
     -webkit-background-clip: text;
     color: transparent;
 }

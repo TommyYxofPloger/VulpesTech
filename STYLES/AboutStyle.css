@@ -75,8 +75,8 @@ h2{
     display: flex;
     align-items: center;
 }
-.texto-D h4{
-    padding-left: 50px;
+.texto-D h3{
+    color: #333;
     flex: 1;
 }
 .quem-somos-container {

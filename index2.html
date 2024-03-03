@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+	<link href="https://vulpestech.com.br/STYLES/IndexStyle.css" rel="stylesheet">
+    <title>Redirecionando...</title>
+</head>
+<body>
+	<div class="content">
+		<div class="texto">
+			<p>Redirecionando...</p>
+		</div>
+		<img class="loading-image-fast" src="https://vulpestech.com.br/IMAGES/spinning-fox.png" alt="raposa helicóptero">
+	</div>
+
+    <script>
+        const currentUrl = window.location.href;
+		if(currentUrl == 'https://vulpestech.com.br/' || currentUrl == 'https://vulpestech.com.br'){
+			window.location.replace("https://vulpestech.com.br/about");
+		}
+    </script>
+	
+</body>
+</html>

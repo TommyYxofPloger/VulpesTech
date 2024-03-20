@@ -36,29 +36,21 @@ header {
 
 .menu {
     display: flex;
-    background: linear-gradient(to top left, #ff0000, #0000ff);
-    border-radius: 10px;
-}
-
-.menu2{
-    display: flex;
     justify-content: center;
+    background: linear-gradient(to top left, #ff0000, #0000ff);
 }
 
 .menu-option {
-    display: flex;
-    justify-content: center;
     margin-right: 10px;
-    border-radius: 5px;
 }
 
 .option-container {
-    
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo com transparência */
     border: 1px solid #333;
-    
+    border-radius: 5px;
 }
+
 
 
 .container {

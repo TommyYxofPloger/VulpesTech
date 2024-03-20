@@ -40,17 +40,24 @@ header {
     border-radius: 10px;
 }
 
-.menu-option {
+.menu2{
     display: flex;
     justify-content: center;
 }
 
-.option-container {
+.menu-option {
+    display: flex;
+    justify-content: center;
     margin-right: 10px;
+    border-radius: 5px;
+}
+
+.option-container {
+    
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #333;
-    border-radius: 5px;
+    
 }
 
 

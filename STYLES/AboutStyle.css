@@ -36,7 +36,9 @@ header {
 header .barrasuperior{
     background-color: rgba(255, 255, 255, 0.5);
 }
-
+.options{
+    display: flex;
+}
 .container {
     width: 80%;
     max-width: 80%;

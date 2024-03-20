@@ -40,6 +40,19 @@ header .barrasuperior{
     text-align: center;
     display: flex;
 }
+.paginaprincipal {
+    padding: 10px; /* Adicione o espaçamento desejado */
+    background-color: #fff; /* Cor de fundo para a opção da página inicial */
+    border-radius: 5px; /* Arredonda as bordas */
+    margin-right: 10px; /* Adicione margem à direita para separar das outras opções */
+}
+
+.about {
+    padding: 10px; /* Adicione o espaçamento desejado */
+    background-color: #fff; /* Cor de fundo para a opção sobre */
+    border-radius: 5px; /* Arredonda as bordas */
+    margin-right: 10px; /* Adicione margem à direita para separar das outras opções */
+}
 .container {
     width: 80%;
     max-width: 80%;

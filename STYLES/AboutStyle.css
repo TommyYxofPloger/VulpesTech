@@ -26,13 +26,16 @@ html, body {
 }
 
 
+
 header {
     background-color: rgba(51, 51, 51, 0.5);
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
+header .barrasuperior{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 
 .container {
     width: 80%;

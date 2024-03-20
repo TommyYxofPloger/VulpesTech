@@ -37,6 +37,7 @@ header .barrasuperior{
     background-color: rgba(255, 255, 255, 0.5);
 }
 .options{
+    text-align: center;
     display: flex;
 }
 .container {

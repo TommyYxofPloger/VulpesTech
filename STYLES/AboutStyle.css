@@ -36,23 +36,20 @@ header {
 header .barrasuperior{
     background-color: rgba(255, 255, 255, 0.5);
 }
-.options{
-    text-align: center;
+.menu {
     display: flex;
 }
-.paginaprincipal {
-    padding: 10px; /* Adicione o espaçamento desejado */
-    background-color: #fff; /* Cor de fundo para a opção da página inicial */
-    border-radius: 5px; /* Arredonda as bordas */
-    margin-right: 10px; /* Adicione margem à direita para separar das outras opções */
+
+.menu-option {
+    padding: 10px;
+    margin-right: 10px;
 }
 
-.about {
-    padding: 10px; /* Adicione o espaçamento desejado */
-    background-color: #fff; /* Cor de fundo para a opção sobre */
-    border-radius: 5px; /* Arredonda as bordas */
-    margin-right: 10px; /* Adicione margem à direita para separar das outras opções */
+.divider {
+    margin-right: 10px;
+    color: #333; /* Cor das divisões */
 }
+
 .container {
     width: 80%;
     max-width: 80%;

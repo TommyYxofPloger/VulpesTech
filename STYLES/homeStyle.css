@@ -38,14 +38,15 @@ header {
     display: flex;
     justify-content: center;
     background: linear-gradient(to top left, #ff0000, #0000ff);
-        border-radius: 10px;
+    border-radius: 10px;
 }
 
 .menu-option {
-    margin-right: 10px;
+    justify-content: center;
 }
 
 .option-container {
+    margin-right: 10px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #333;

@@ -41,13 +41,14 @@ header .barrasuperior{
 }
 
 .menu-option {
-    padding: 10px;
     margin-right: 10px;
 }
 
-.divider {
-    margin-right: 10px;
-    color: #333; /* Cor das divisões */
+.option-container {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
 }
 
 .container {

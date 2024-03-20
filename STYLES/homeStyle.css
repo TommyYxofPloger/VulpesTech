@@ -42,6 +42,7 @@ header {
 }
 
 .menu-option {
+    display: flex;
     justify-content: center;
 }
 

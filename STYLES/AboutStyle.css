@@ -7,8 +7,6 @@
 html, body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, #ff0000, #0000ff);
-    height: 100%;
-    width: 100%;
     scrollbar-width: thin;
     scrollbar-color: #ff0000 #888;
 }

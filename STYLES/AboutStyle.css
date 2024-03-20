@@ -38,6 +38,7 @@ header {
     display: flex;
     justify-content: center;
     background: linear-gradient(to top left, #ff0000, #0000ff);
+        border-radius: 10px;
 }
 
 .menu-option {
